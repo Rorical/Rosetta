@@ -1,6 +1,6 @@
 module github.com/Rorical/Rosetta
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/andybalholm/brotli v1.1.1
@@ -10,7 +10,7 @@ require (
 	github.com/ethereum/go-ethereum v1.16.2
 	github.com/gofrs/flock v0.12.1
 	github.com/holiman/uint256 v1.3.2
-	golang.org/x/crypto v0.54.0
+	golang.org/x/crypto v0.59.0
 	golang.org/x/oauth2 v0.36.0
 	modernc.org/sqlite v1.40.1
 )
@@ -54,7 +54,7 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	golang.org/x/exp v0.0.0-20250620022241-b7579e27df2b // indirect
 	golang.org/x/sync v0.22.0 // indirect
-	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/sys v0.50.0 // indirect
 	golang.org/x/tools v0.47.0 // indirect
 	modernc.org/libc v1.66.10 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
