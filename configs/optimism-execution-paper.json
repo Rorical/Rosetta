@@ -1,0 +1,14 @@
+{
+  "artifact": "contracts/out/ArbitrageExecutor.sol/ArbitrageExecutor.json",
+  "output": "state/optimism-execution-paper.jsonl",
+  "wrapped_native": "0x4200000000000000000000000000000000000006",
+  "interval_ms": 5000,
+  "sampling_window_ms": 50,
+  "delays_ms": [200, 600],
+  "timeout_ms": 15000,
+  "gas_limit": 2000000,
+  "tip_wei": "0",
+  "tip_scenarios_wei": ["0", "1000", "10000", "100000", "1000000"],
+  "slippage_bps": 50,
+  "max_prefix_transactions": 1000
+}

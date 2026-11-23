@@ -1,0 +1,596 @@
+{
+ "source": "Canonical OP Mainnet pool snapshot captured by rosetta-rpc at block 158960149 (log-maintained tick windows after repair expansion)",
+ "version": 1,
+ "block": {
+  "number": 158960149,
+  "hash": "0xdf8e9098d91217fa3f8c81f763ebde11b209310cf064a2a8cb38deda023c9123",
+  "parent_hash": "0xb76972b4ea762fee22164bef0bde1e5e2435d1baa8a4758b11399d95e9058624",
+  "timestamp": 1793519075,
+  "l1_block": 0
+ },
+ "pools": [
+  {
+   "address": "0x9a13f98cb987694c9f086b1f5eb990eea8264ec3",
+   "kind": 3,
+   "pool_id": "0x0535e61d34d19bef9aaa21f9f9b0dfe4f2770246a1cab68838c830cde8b22b40",
+   "token0": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+   "token1": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+   "fee": 100,
+   "protocol_fee": 102425,
+   "tick_spacing": 1,
+   "sqrt_price_x96": "79231604133224958802366172225",
+   "tick": 0,
+   "liquidity": "18751662058773",
+   "reserve0": "",
+   "reserve1": "",
+   "updated_block": 158959983
+  },
+  {
+   "address": "0xbf30ff33cf9c6b0c48702ff17891293b002dfea4",
+   "kind": 5,
+   "token0": "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb",
+   "token1": "0x4200000000000000000000000000000000000006",
+   "fee": 90,
+   "tick_spacing": 1,
+   "sqrt_price_x96": "88482715156340686391629043862",
+   "tick": 2209,
+   "liquidity": "4489155265536048602",
+   "reserve0": "",
+   "reserve1": "",
+   "updated_block": 158959593
+  }
+ ],
+ "deep": [
+  {
+   "address": "0x9a13f98cb987694c9f086b1f5eb990eea8264ec3",
+   "kind": 3,
+   "pool_id": "0x0535e61d34d19bef9aaa21f9f9b0dfe4f2770246a1cab68838c830cde8b22b40",
+   "window_min": -512,
+   "window_max": 767,
+   "loaded_block": {
+    "number": 158949226,
+    "hash": "0x1f6cf637ffbb265f1872fb4cef6a71bb51ea1c10c1598434b98e04d4c82f80e8",
+    "parent_hash": "0x268b561ac3b71ba5b8c138438268871c19a2b34893bfd7e34a4a7a2c30f6bbd1",
+    "timestamp": 1793497229,
+    "l1_block": 0
+   },
+   "bitmap": [
+    {
+     "word": -1,
+     "bits": "4000000000000000000000400000000000000000004000000000000000000000"
+    },
+    {
+     "word": 0,
+     "bits": "000000000000000000000000000000000000000800000000000000000000000b"
+    }
+   ],
+   "ticks": [
+    {
+     "tick": -170,
+     "liquidity_gross": "91524770",
+     "liquidity_net": "91524770"
+    },
+    {
+     "tick": -90,
+     "liquidity_gross": "668293781",
+     "liquidity_net": "668293781"
+    },
+    {
+     "tick": -2,
+     "liquidity_gross": "18750504861973",
+     "liquidity_net": "18750504861973"
+    },
+    {
+     "tick": 0,
+     "liquidity_gross": "1916988018",
+     "liquidity_net": "397350916"
+    },
+    {
+     "tick": 1,
+     "liquidity_gross": "14749638776909",
+     "liquidity_net": "-14749638776909"
+    },
+    {
+     "tick": 3,
+     "liquidity_gross": "4000866085064",
+     "liquidity_net": "-4000866085064"
+    },
+    {
+     "tick": 99,
+     "liquidity_gross": "1157169467",
+     "liquidity_net": "-1157169467"
+    }
+   ]
+  },
+  {
+   "address": "0xbf30ff33cf9c6b0c48702ff17891293b002dfea4",
+   "kind": 5,
+   "window_min": -14336,
+   "window_max": 18687,
+   "loaded_block": {
+    "number": 158955406,
+    "hash": "0xfab799e30e40316ef769dee49241a8a63599f43486ba423df0a0775f8e564d9d",
+    "parent_hash": "0x9323584a0771a2e615a1344c285404338b60ad0458122a97c4bd27e74aeb17b3",
+    "timestamp": 1793509589,
+    "l1_block": 0
+   },
+   "bitmap": [
+    {
+     "word": -1,
+     "bits": "0000000000000000000000000000001000000000000000000000000000000000"
+    },
+    {
+     "word": 3,
+     "bits": "0000000000000000000000000000000000000000000000000000000000000002"
+    },
+    {
+     "word": 5,
+     "bits": "8000000000010000040000000000000000000000000000000000000000000000"
+    },
+    {
+     "word": 6,
+     "bits": "000003c00000934bfde17a00000100909000000d010000006018383000200010"
+    },
+    {
+     "word": 7,
+     "bits": "0000000000810000000001000000000500000001996a00000000048010020080"
+    },
+    {
+     "word": 8,
+     "bits": "0000000000000000800000010f00001a00000001900000000000000180000000"
+    },
+    {
+     "word": 9,
+     "bits": "0000008000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+     "word": 15,
+     "bits": "0000000000000000000000000000000000000000000000000000001000000000"
+    }
+   ],
+   "ticks": [
+    {
+     "tick": -124,
+     "liquidity_gross": "2021676464356737",
+     "liquidity_net": "2021676464356737"
+    },
+    {
+     "tick": 769,
+     "liquidity_gross": "10768706389298102",
+     "liquidity_net": "10768706389298102"
+    },
+    {
+     "tick": 1466,
+     "liquidity_gross": "1596917424156819",
+     "liquidity_net": "1596917424156819"
+    },
+    {
+     "tick": 1488,
+     "liquidity_gross": "1596917424156819",
+     "liquidity_net": "-1596917424156819"
+    },
+    {
+     "tick": 1535,
+     "liquidity_gross": "34874438815369048486",
+     "liquidity_net": "34874438815369048486"
+    },
+    {
+     "tick": 1540,
+     "liquidity_gross": "21194006452251536",
+     "liquidity_net": "21194006452251536"
+    },
+    {
+     "tick": 1557,
+     "liquidity_gross": "34874438815369048486",
+     "liquidity_net": "-34874438815369048486"
+    },
+    {
+     "tick": 1572,
+     "liquidity_gross": "483545",
+     "liquidity_net": "483545"
+    },
+    {
+     "tick": 1573,
+     "liquidity_gross": "483545",
+     "liquidity_net": "-483545"
+    },
+    {
+     "tick": 1579,
+     "liquidity_gross": "35536",
+     "liquidity_net": "35536"
+    },
+    {
+     "tick": 1580,
+     "liquidity_gross": "58139",
+     "liquidity_net": "-12933"
+    },
+    {
+     "tick": 1581,
+     "liquidity_gross": "22603",
+     "liquidity_net": "-22603"
+    },
+    {
+     "tick": 1587,
+     "liquidity_gross": "8388604183",
+     "liquidity_net": "8388604183"
+    },
+    {
+     "tick": 1588,
+     "liquidity_gross": "524285148",
+     "liquidity_net": "524285148"
+    },
+    {
+     "tick": 1597,
+     "liquidity_gross": "8388604183",
+     "liquidity_net": "-8388604183"
+    },
+    {
+     "tick": 1598,
+     "liquidity_gross": "524285148",
+     "liquidity_net": "-524285148"
+    },
+    {
+     "tick": 1624,
+     "liquidity_gross": "1459870605359641202",
+     "liquidity_net": "1459870605359641202"
+    },
+    {
+     "tick": 1632,
+     "liquidity_gross": "57849005642528632",
+     "liquidity_net": "57849005642528632"
+    },
+    {
+     "tick": 1634,
+     "liquidity_gross": "1459870605359641202",
+     "liquidity_net": "-1459870605359641202"
+    },
+    {
+     "tick": 1635,
+     "liquidity_gross": "57849005642528632",
+     "liquidity_net": "-57849005642528632"
+    },
+    {
+     "tick": 1660,
+     "liquidity_gross": "1393610738892341278",
+     "liquidity_net": "1393610738892341278"
+    },
+    {
+     "tick": 1663,
+     "liquidity_gross": "1393610738892341278",
+     "liquidity_net": "-1393610738892341278"
+    },
+    {
+     "tick": 1668,
+     "liquidity_gross": "178680561202739413",
+     "liquidity_net": "178680561202739413"
+    },
+    {
+     "tick": 1671,
+     "liquidity_gross": "178680561202739413",
+     "liquidity_net": "-178680561202739413"
+    },
+    {
+     "tick": 1680,
+     "liquidity_gross": "12754705271637918",
+     "liquidity_net": "12754705271637918"
+    },
+    {
+     "tick": 1705,
+     "liquidity_gross": "115701569605989871977",
+     "liquidity_net": "115701569605989871977"
+    },
+    {
+     "tick": 1707,
+     "liquidity_gross": "3528566239281852539",
+     "liquidity_net": "3528566239281852539"
+    },
+    {
+     "tick": 1708,
+     "liquidity_gross": "4340741966683566703",
+     "liquidity_net": "4340741966683566703"
+    },
+    {
+     "tick": 1709,
+     "liquidity_gross": "3008387157685240052",
+     "liquidity_net": "-3008387157685240052"
+    },
+    {
+     "tick": 1710,
+     "liquidity_gross": "4860921048280179190",
+     "liquidity_net": "-4860921048280179190"
+    },
+    {
+     "tick": 1712,
+     "liquidity_gross": "115701569605989871977",
+     "liquidity_net": "-115701569605989871977"
+    },
+    {
+     "tick": 1717,
+     "liquidity_gross": "183547163957646450",
+     "liquidity_net": "183547163957646450"
+    },
+    {
+     "tick": 1718,
+     "liquidity_gross": "1006828088064795321",
+     "liquidity_net": "1006828088064795321"
+    },
+    {
+     "tick": 1719,
+     "liquidity_gross": "183547163957646450",
+     "liquidity_net": "-183547163957646450"
+    },
+    {
+     "tick": 1720,
+     "liquidity_gross": "1282046347017564970423",
+     "liquidity_net": "1282046347017564970423"
+    },
+    {
+     "tick": 1722,
+     "liquidity_gross": "4697541970192029568",
+     "liquidity_net": "4697541970192029568"
+    },
+    {
+     "tick": 1723,
+     "liquidity_gross": "1282617424921220416203",
+     "liquidity_net": "-1281475269113909524643"
+    },
+    {
+     "tick": 1724,
+     "liquidity_gross": "1991186215743087627",
+     "liquidity_net": "1991186215743087627"
+    },
+    {
+     "tick": 1725,
+     "liquidity_gross": "64737247723200321400",
+     "liquidity_net": "54893282219030521648"
+    },
+    {
+     "tick": 1726,
+     "liquidity_gross": "571077903655445780",
+     "liquidity_net": "-571077903655445780"
+    },
+    {
+     "tick": 1727,
+     "liquidity_gross": "1991186215743087627",
+     "liquidity_net": "-1991186215743087627"
+    },
+    {
+     "tick": 1728,
+     "liquidity_gross": "58095544853210313481",
+     "liquidity_net": "-57583056888538154591"
+    },
+    {
+     "tick": 1729,
+     "liquidity_gross": "837036723759720195",
+     "liquidity_net": "-727737888584129831"
+    },
+    {
+     "tick": 1731,
+     "liquidity_gross": "554380080571861230579",
+     "liquidity_net": "554380080571861230579"
+    },
+    {
+     "tick": 1734,
+     "liquidity_gross": "554761699297649833631",
+     "liquidity_net": "-553998461846072627527"
+    },
+    {
+     "tick": 1736,
+     "liquidity_gross": "54649417587795182",
+     "liquidity_net": "-54649417587795182"
+    },
+    {
+     "tick": 1737,
+     "liquidity_gross": "381618725788603052",
+     "liquidity_net": "-381618725788603052"
+    },
+    {
+     "tick": 1740,
+     "liquidity_gross": "1975964100241187488",
+     "liquidity_net": "-1975964100241187488"
+    },
+    {
+     "tick": 1743,
+     "liquidity_gross": "256243982336079445",
+     "liquidity_net": "-256243982336079445"
+    },
+    {
+     "tick": 1766,
+     "liquidity_gross": "375984485022840348",
+     "liquidity_net": "375984485022840348"
+    },
+    {
+     "tick": 1767,
+     "liquidity_gross": "375984485022840348",
+     "liquidity_net": "-375984485022840348"
+    },
+    {
+     "tick": 1768,
+     "liquidity_gross": "9177934058141772851",
+     "liquidity_net": "9177934058141772851"
+    },
+    {
+     "tick": 1769,
+     "liquidity_gross": "9177934058141772851",
+     "liquidity_net": "-9177934058141772851"
+    },
+    {
+     "tick": 1799,
+     "liquidity_gross": "156477154235269431335",
+     "liquidity_net": "156477154235269431335"
+    },
+    {
+     "tick": 1809,
+     "liquidity_gross": "156477154235269431335",
+     "liquidity_net": "-156477154235269431335"
+    },
+    {
+     "tick": 1820,
+     "liquidity_gross": "21194006452251536",
+     "liquidity_net": "-21194006452251536"
+    },
+    {
+     "tick": 1831,
+     "liquidity_gross": "9646766247464398312",
+     "liquidity_net": "9646766247464398312"
+    },
+    {
+     "tick": 1834,
+     "liquidity_gross": "9646766247464398312",
+     "liquidity_net": "-9646766247464398312"
+    },
+    {
+     "tick": 1873,
+     "liquidity_gross": "202278776513324600329",
+     "liquidity_net": "202278776513324600329"
+    },
+    {
+     "tick": 1875,
+     "liquidity_gross": "6980815972145074245",
+     "liquidity_net": "6980815972145074245"
+    },
+    {
+     "tick": 1877,
+     "liquidity_gross": "14977405776734487914322",
+     "liquidity_net": "14977405776734487914322"
+    },
+    {
+     "tick": 1878,
+     "liquidity_gross": "6980815972145074245",
+     "liquidity_net": "-6980815972145074245"
+    },
+    {
+     "tick": 1880,
+     "liquidity_gross": "14977407285113397467760",
+     "liquidity_net": "-14977404268355578360884"
+    },
+    {
+     "tick": 1883,
+     "liquidity_gross": "1508378909553438",
+     "liquidity_net": "-1508378909553438"
+    },
+    {
+     "tick": 1884,
+     "liquidity_gross": "163714742559395308",
+     "liquidity_net": "163714742559395308"
+    },
+    {
+     "tick": 1887,
+     "liquidity_gross": "163714742559395308",
+     "liquidity_net": "-163714742559395308"
+    },
+    {
+     "tick": 1888,
+     "liquidity_gross": "202278776513324600329",
+     "liquidity_net": "-202278776513324600329"
+    },
+    {
+     "tick": 1920,
+     "liquidity_gross": "63428480457540955932",
+     "liquidity_net": "63428480457540955932"
+    },
+    {
+     "tick": 1922,
+     "liquidity_gross": "63428480457540955932",
+     "liquidity_net": "-63428480457540955932"
+    },
+    {
+     "tick": 1960,
+     "liquidity_gross": "12754705271637918",
+     "liquidity_net": "-12754705271637918"
+    },
+    {
+     "tick": 2000,
+     "liquidity_gross": "64469724961937422",
+     "liquidity_net": "64469724961937422"
+    },
+    {
+     "tick": 2007,
+     "liquidity_gross": "64469724961937422",
+     "liquidity_net": "-64469724961937422"
+    },
+    {
+     "tick": 2079,
+     "liquidity_gross": "6532723395601837009",
+     "liquidity_net": "6532723395601837009"
+    },
+    {
+     "tick": 2080,
+     "liquidity_gross": "6532723395601837009",
+     "liquidity_net": "-6532723395601837009"
+    },
+    {
+     "tick": 2140,
+     "liquidity_gross": "47810874661737417772",
+     "liquidity_net": "47810874661737417772"
+    },
+    {
+     "tick": 2143,
+     "liquidity_gross": "47810874661737417772",
+     "liquidity_net": "-47810874661737417772"
+    },
+    {
+     "tick": 2144,
+     "liquidity_gross": "920366199316527237",
+     "liquidity_net": "920366199316527237"
+    },
+    {
+     "tick": 2177,
+     "liquidity_gross": "4476361972624547669",
+     "liquidity_net": "4476361972624547669"
+    },
+    {
+     "tick": 2179,
+     "liquidity_gross": "524139642636261100",
+     "liquidity_net": "524139642636261100"
+    },
+    {
+     "tick": 2180,
+     "liquidity_gross": "524139642636261100",
+     "liquidity_net": "-524139642636261100"
+    },
+    {
+     "tick": 2200,
+     "liquidity_gross": "32458304056213340286",
+     "liquidity_net": "32458304056213340286"
+    },
+    {
+     "tick": 2201,
+     "liquidity_gross": "1484537196774234003518",
+     "liquidity_net": "1484537196774234003518"
+    },
+    {
+     "tick": 2202,
+     "liquidity_gross": "1484537196774234003518",
+     "liquidity_net": "-1484537196774234003518"
+    },
+    {
+     "tick": 2203,
+     "liquidity_gross": "32458304056213340286",
+     "liquidity_net": "-32458304056213340286"
+    },
+    {
+     "tick": 2208,
+     "liquidity_gross": "920366199316527237",
+     "liquidity_net": "-920366199316527237"
+    },
+    {
+     "tick": 2239,
+     "liquidity_gross": "4476361972624547669",
+     "liquidity_net": "-4476361972624547669"
+    },
+    {
+     "tick": 2535,
+     "liquidity_gross": "10768706389298102",
+     "liquidity_net": "-10768706389298102"
+    },
+    {
+     "tick": 3876,
+     "liquidity_gross": "2021676464356737",
+     "liquidity_net": "-2021676464356737"
+    }
+   ]
+  }
+ ],
+ "dirty": []
+}

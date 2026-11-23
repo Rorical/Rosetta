@@ -1,0 +1,58 @@
+# Working material
+.plans/
+
+# Go build output
+/bin/
+/dist/
+/go.work
+/go.work.sum
+*.test
+coverage.*
+
+# Python working output
+__pycache__/
+*.pyc
+.venv/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Keys and keystores
+*.key
+*.pem
+*.keystore
+keys/
+
+# Foundry
+/contracts/out/
+/contracts/cache/
+/contracts/broadcast/
+/contracts/lib/
+
+# macOS metadata
+.DS_Store
+
+# Native OP test engine
+/internal/testutil/opengine/target/
+
+# Runtime market indexes and local observation captures
+/state/
+/research/
+
+# Console UI build output and dependencies
+web/dist/*
+!web/dist/.gitkeep
+web/node_modules/
+
+.claude/worktrees/
+
+.codegraph
+
+# Browser automation snapshots
+.playwright-mcp/

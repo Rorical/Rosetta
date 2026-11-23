@@ -1,0 +1,84 @@
+{
+  "chain_id": 10,
+  "tokens": [
+    "0x4200000000000000000000000000000000000006",
+    "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+    "0x4200000000000000000000000000000000000042",
+    "0x0000000000000000000000000000000000000000",
+    "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "0x01bFF41798a0BcF287b996046Ca68b395DbC1071",
+    "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+    "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+    "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
+    "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
+    "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+    "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819",
+    "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
+    "0x2E3D870790dC77A83DD1d18184Acc7439A53f475",
+    "0x10398abc267496e49106b07dd6be13364d10dc71",
+    "0x03569cc076654f82679c4ba2124d64774781b01d",
+    "0x3e29d3a9316dab217754d13b28646b76607c5f04",
+    "0xbdeaea5205d16f34cb40038052d91235d87b4c54",
+    "0xb448ec505c924944ca8b2c55ef05c299ee0781df",
+    "0xa00e3a3511aac35ca78530c85007afcd31753819"
+  ],
+  "factories": [
+    {
+      "address": "0x0c3c1c532F1e39EdF36BE9Fe0bE1410313E074Bf",
+      "kind": "v2",
+      "fees": [
+        3000
+      ]
+    },
+    {
+      "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "kind": "v3",
+      "fees": [
+        100,
+        500,
+        3000,
+        10000
+      ]
+    },
+    {
+      "address": "0xCc0bDDB707055e04e497aB22a59c2aF4391cd12F",
+      "kind": "slipstream"
+    },
+    {
+      "address": "0xe13Dd1fbA721Aa81a1826D9523AC9BC7d260c879",
+      "kind": "slipstream"
+    },
+    {
+      "address": "0xfeab42d90055db3a0616249f76b6002d72266778",
+      "kind": "slipstream"
+    },
+    {
+      "address": "0xf1046053aa5682b4f9a81b5481394da16be5ff5a",
+      "kind": "velodrome_v2"
+    }
+  ],
+  "v4": {
+    "pool_manager": "0x9a13f98cb987694c9f086b1f5eb990eea8264ec3",
+    "state_view": "0xc18a3169788f4f75a170290584eca6395c75ecdb",
+    "tiers": [
+      {
+        "fee": 100,
+        "tick_spacing": 1
+      },
+      {
+        "fee": 500,
+        "tick_spacing": 10
+      },
+      {
+        "fee": 3000,
+        "tick_spacing": 60
+      },
+      {
+        "fee": 10000,
+        "tick_spacing": 200
+      }
+    ]
+  }
+}

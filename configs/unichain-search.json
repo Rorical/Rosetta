@@ -1,0 +1,23 @@
+{
+  "k": 32,
+  "max_depth": 6,
+  "max_cycles": 500000,
+  "word_radius": 1,
+  "funding": [
+    {
+      "token": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+      "min_input": "1000000",
+      "seed_input": "1000000000",
+      "max_input": "100000000000",
+      "min_gross": "1000"
+    },
+    {
+      "token": "0x4200000000000000000000000000000000000006",
+      "min_input": "1000000000000",
+      "seed_input": "30000000000000000",
+      "max_input": "500000000000000000",
+      "min_gross": "1000000000000"
+    }
+  ],
+  "explore_paths": 32768
+}

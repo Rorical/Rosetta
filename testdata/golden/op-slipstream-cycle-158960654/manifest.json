@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "chain_id": 10,
+  "source": "OP Mainnet historical eth_call and canonical receipts",
+  "verified_at": "2026-11-01",
+  "transaction": "https://explorer.optimism.io/tx/0x37a227e350edbce73c0f3f1852887825d4d1b51f217e8c12f42760a0a832fe96",
+  "block_encoding": "canonical receipt prefix through the competitor; not a complete block commit",
+  "snapshot_encoding": "Rosetta pool snapshot JSON",
+  "checksum": {
+    "snapshot.json": "sha256:8f90cab06eeadd7079c4b92d80fd67cec450726cf30dcd329a2f3b8e6ca9f315",
+    "block.json": "sha256:e8bc6023a1a426721c40f74e98b8b0d10f598d5558d709dca3c2ecce8da92da5",
+    "expected.json": "sha256:79e7397099b57892bf4b6bc605141f4018e62789d21667a96667516d4e082fcc"
+  }
+}

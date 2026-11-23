@@ -1,0 +1,43 @@
+{
+  "inventory_path": "state/robinhood-pool-index.json",
+  "lookback_blocks": 2000000,
+  "refresh_blocks": 2400,
+  "scan_chunk_blocks": 50000,
+  "max_pools": 1024,
+  "max_fee": 250000,
+  "deny_token_code_selectors": [
+    "0x0174639d"
+  ],
+  "sources": [
+    "uniswap_v2",
+    "uniswap_v3",
+    "uniswap_v4",
+    "slipstream"
+  ],
+  "emitters": [
+    {
+      "source": "slipstream",
+      "address": "0xe0c4ceb92d08ca985bb70fe0a22feb121a9854a8"
+    }
+  ],
+  "selection": {
+    "targets": [
+      {
+        "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+        "amount": "1000000"
+      },
+      {
+        "token": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "amount": "1000000000000000"
+      }
+    ],
+    "max_tokens": 256,
+    "max_slippage_bps": 200,
+    "min_swaps": 1,
+    "activity_window": 144000,
+    "probe_limit": 512,
+    "max_depth": 5
+  },
+  "history_chunk_blocks": 20000,
+  "history_chunks_per_round": 300
+}

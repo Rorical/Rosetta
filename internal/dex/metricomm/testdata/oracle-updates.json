@@ -1,0 +1,732 @@
+{
+ "source": "Arbitrum One: update transactions sent to the oracle 0xe844701934d9c6085b292e428f41b911cc0b3872 (eth_getTransactionByHash input), each the only update of its block, and the values its getter 0xb5e4b813(feed id) returned at that block for feeds 0 (USDC), 1 (ETH), 2 (BTC). Collected 2026-11-11.",
+ "chain_id": 42161,
+ "updates": [
+  {
+   "block_number": 523360467,
+   "input": "0x0005f7046c03035e0e9a89525286c42d214b4b0000000000000001a1cbfd399900",
+   "timestamp_ms": 1794423732633,
+   "feeds": [
+    {
+     "price": "100074604",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208118499328",
+     "bid_spread_ppm": 213,
+     "ask_spread_ppm": 213
+    },
+    {
+     "price": "7439640494080",
+     "bid_spread_ppm": 178,
+     "ask_spread_ppm": 178
+    }
+   ]
+  },
+  {
+   "block_number": 523360468,
+   "input": "0x0005f7046c03035e0ec667535386c43fc94e4e0000000000000001a1cbfd3a4a00",
+   "timestamp_ms": 1794423732810,
+   "feeds": [
+    {
+     "price": "100074604",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208141498368",
+     "bid_spread_ppm": 218,
+     "ask_spread_ppm": 218
+    },
+    {
+     "price": "7439953494016",
+     "bid_spread_ppm": 193,
+     "ask_spread_ppm": 193
+    }
+   ]
+  },
+  {
+   "block_number": 523360481,
+   "input": "0x0005f7047003035e0ed5aa505086c44cb847470000000000000001a1cbfd49eb00",
+   "timestamp_ms": 1794423736811,
+   "feeds": [
+    {
+     "price": "100074608",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208149499904",
+     "bid_spread_ppm": 203,
+     "ask_spread_ppm": 203
+    },
+    {
+     "price": "7440170483712",
+     "bid_spread_ppm": 158,
+     "ask_spread_ppm": 158
+    }
+   ]
+  },
+  {
+   "block_number": 523360489,
+   "input": "0x0005f7046f03035e0ea412525286c44cb841410000000000000001a1cbfd53e200",
+   "timestamp_ms": 1794423739362,
+   "feeds": [
+    {
+     "price": "100074607",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208123498496",
+     "bid_spread_ppm": 213,
+     "ask_spread_ppm": 213
+    },
+    {
+     "price": "7440170483712",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360495,
+   "input": "0x0005f7046e03035e0e764a535386c44cb841410000000000000001a1cbfd59ba00",
+   "timestamp_ms": 1794423740858,
+   "feeds": [
+    {
+     "price": "100074606",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208099495936",
+     "bid_spread_ppm": 218,
+     "ask_spread_ppm": 218
+    },
+    {
+     "price": "7440170483712",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360499,
+   "input": "0x0005f7046e03035e0e764b525286c424e74b4b0000000000000001a1cbfd5e1900",
+   "timestamp_ms": 1794423741977,
+   "feeds": [
+    {
+     "price": "100074606",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208099497984",
+     "bid_spread_ppm": 213,
+     "ask_spread_ppm": 213
+    },
+    {
+     "price": "7439502475264",
+     "bid_spread_ppm": 178,
+     "ask_spread_ppm": 178
+    }
+   ]
+  },
+  {
+   "block_number": 523360511,
+   "input": "0x0005f7046403035e0e59af4c4c86c424e748480000000000000001a1cbfd6dbb00",
+   "timestamp_ms": 1794423745979,
+   "feeds": [
+    {
+     "price": "100074596",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208084498432",
+     "bid_spread_ppm": 183,
+     "ask_spread_ppm": 183
+    },
+    {
+     "price": "7439502475264",
+     "bid_spread_ppm": 163,
+     "ask_spread_ppm": 163
+    }
+   ]
+  },
+  {
+   "block_number": 523360533,
+   "input": "0x0005f7045703035e0e469c444486c3ea8d47470000000000000001a1cbfd8d0f00",
+   "timestamp_ms": 1794423753999,
+   "feeds": [
+    {
+     "price": "100074583",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208074498048",
+     "bid_spread_ppm": 143,
+     "ask_spread_ppm": 143
+    },
+    {
+     "price": "7438523498496",
+     "bid_spread_ppm": 158,
+     "ask_spread_ppm": 158
+    }
+   ]
+  },
+  {
+   "block_number": 523360548,
+   "input": "0x0005f7045b03035e0e469c444486c3ea8d41410000000000000001a1cbfd9caf00",
+   "timestamp_ms": 1794423757999,
+   "feeds": [
+    {
+     "price": "100074587",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208074498048",
+     "bid_spread_ppm": 143,
+     "ask_spread_ppm": 143
+    },
+    {
+     "price": "7438523498496",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360556,
+   "input": "0x0005f7045503035e0e50264a4a86c40bce48480000000000000001a1cbfdaace00",
+   "timestamp_ms": 1794423761614,
+   "feeds": [
+    {
+     "price": "100074581",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208079499264",
+     "bid_spread_ppm": 173,
+     "ask_spread_ppm": 173
+    },
+    {
+     "price": "7439081406464",
+     "bid_spread_ppm": 163,
+     "ask_spread_ppm": 163
+    }
+   ]
+  },
+  {
+   "block_number": 523360564,
+   "input": "0x0005f7045603035e0e9e59505086c42b2949490000000000000001a1cbfdb55d00",
+   "timestamp_ms": 1794423764317,
+   "feeds": [
+    {
+     "price": "100074582",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208120498176",
+     "bid_spread_ppm": 203,
+     "ask_spread_ppm": 203
+    },
+    {
+     "price": "7439607463936",
+     "bid_spread_ppm": 168,
+     "ask_spread_ppm": 168
+    }
+   ]
+  },
+  {
+   "block_number": 523360568,
+   "input": "0x0005f7045703035e0ebec6515186c42b2949490000000000000001a1cbfdbaac00",
+   "timestamp_ms": 1794423765676,
+   "feeds": [
+    {
+     "price": "100074583",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208137498624",
+     "bid_spread_ppm": 208,
+     "ask_spread_ppm": 208
+    },
+    {
+     "price": "7439607463936",
+     "bid_spread_ppm": 168,
+     "ask_spread_ppm": 168
+    }
+   ]
+  },
+  {
+   "block_number": 523360574,
+   "input": "0x0005f7045403035e0e94d04f4f86c42b2946460000000000000001a1cbfdc27b00",
+   "timestamp_ms": 1794423767675,
+   "feeds": [
+    {
+     "price": "100074580",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208115499008",
+     "bid_spread_ppm": 198,
+     "ask_spread_ppm": 198
+    },
+    {
+     "price": "7439607463936",
+     "bid_spread_ppm": 153,
+     "ask_spread_ppm": 153
+    }
+   ]
+  },
+  {
+   "block_number": 523360580,
+   "input": "0x0005f7045303035e0e5f68525286c42b2941410000000000000001a1cbfdc8e000",
+   "timestamp_ms": 1794423769312,
+   "feeds": [
+    {
+     "price": "100074579",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208087498752",
+     "bid_spread_ppm": 213,
+     "ask_spread_ppm": 213
+    },
+    {
+     "price": "7439607463936",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360594,
+   "input": "0x0005f7044903035e0e6eaa4c4c86c42b2941410000000000000001a1cbfdd88100",
+   "timestamp_ms": 1794423773313,
+   "feeds": [
+    {
+     "price": "100074569",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208095498240",
+     "bid_spread_ppm": 183,
+     "ask_spread_ppm": 183
+    },
+    {
+     "price": "7439607463936",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360609,
+   "input": "0x0005f7044603035e0e1ca6505086c3e2eb4b4b0000000000000001a1cbfdecc500",
+   "timestamp_ms": 1794423778501,
+   "feeds": [
+    {
+     "price": "100074566",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208052498432",
+     "bid_spread_ppm": 203,
+     "ask_spread_ppm": 203
+    },
+    {
+     "price": "7438395441152",
+     "bid_spread_ppm": 178,
+     "ask_spread_ppm": 178
+    }
+   ]
+  },
+  {
+   "block_number": 523360623,
+   "input": "0x0005f7047403035e0e15054b4b86c3e2eb43430000000000000001a1cbfdfc6500",
+   "timestamp_ms": 1794423782501,
+   "feeds": [
+    {
+     "price": "100074612",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208048498688",
+     "bid_spread_ppm": 178,
+     "ask_spread_ppm": 178
+    },
+    {
+     "price": "7438395441152",
+     "bid_spread_ppm": 138,
+     "ask_spread_ppm": 138
+    }
+   ]
+  },
+  {
+   "block_number": 523360636,
+   "input": "0x0005f7041d03035e0e1505444486c3e2eb41410000000000000001a1cbfe0c0600",
+   "timestamp_ms": 1794423786502,
+   "feeds": [
+    {
+     "price": "100074525",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208048498688",
+     "bid_spread_ppm": 143,
+     "ask_spread_ppm": 143
+    },
+    {
+     "price": "7438395441152",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360653,
+   "input": "0x0005f7042203035e0dfe224b4b86c3e2eb41410000000000000001a1cbfe1c1600",
+   "timestamp_ms": 1794423790614,
+   "feeds": [
+    {
+     "price": "100074530",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "208036499456",
+     "bid_spread_ppm": 178,
+     "ask_spread_ppm": 178
+    },
+    {
+     "price": "7438395441152",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360663,
+   "input": "0x0005f7041e03035e0db78f505086c3c78045450000000000000001a1cbfe26ab00",
+   "timestamp_ms": 1794423793323,
+   "feeds": [
+    {
+     "price": "100074526",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207999498240",
+     "bid_spread_ppm": 203,
+     "ask_spread_ppm": 203
+    },
+    {
+     "price": "7437935443968",
+     "bid_spread_ppm": 148,
+     "ask_spread_ppm": 148
+    }
+   ]
+  },
+  {
+   "block_number": 523360695,
+   "input": "0x0005f703d903035e0cfabc545486c360af4b4b0000000000000001a1cbfe46c100",
+   "timestamp_ms": 1794423801537,
+   "feeds": [
+    {
+     "price": "100074457",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207900499968",
+     "bid_spread_ppm": 223,
+     "ask_spread_ppm": 223
+    },
+    {
+     "price": "7436210470912",
+     "bid_spread_ppm": 178,
+     "ask_spread_ppm": 178
+    }
+   ]
+  },
+  {
+   "block_number": 523360699,
+   "input": "0x0005f703da03035e0ce991545486c3254252520000000000000001a1cbfe4b3600",
+   "timestamp_ms": 1794423802678,
+   "feeds": [
+    {
+     "price": "100074458",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207891499008",
+     "bid_spread_ppm": 223,
+     "ask_spread_ppm": 223
+    },
+    {
+     "price": "7435213471744",
+     "bid_spread_ppm": 213,
+     "ask_spread_ppm": 213
+    }
+   ]
+  },
+  {
+   "block_number": 523360707,
+   "input": "0x0005f703da03035e0cbcbe545486c3128b52520000000000000001a1cbfe52e600",
+   "timestamp_ms": 1794423804646,
+   "feeds": [
+    {
+     "price": "100074458",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207867998208",
+     "bid_spread_ppm": 223,
+     "ask_spread_ppm": 223
+    },
+    {
+     "price": "7434899488768",
+     "bid_spread_ppm": 213,
+     "ask_spread_ppm": 213
+    }
+   ]
+  },
+  {
+   "block_number": 523360709,
+   "input": "0x0005f703d903035e0c8c1b545486c3128b51510000000000000001a1cbfe558000",
+   "timestamp_ms": 1794423805312,
+   "feeds": [
+    {
+     "price": "100074457",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207842498560",
+     "bid_spread_ppm": 223,
+     "ask_spread_ppm": 223
+    },
+    {
+     "price": "7434899488768",
+     "bid_spread_ppm": 208,
+     "ask_spread_ppm": 208
+    }
+   ]
+  },
+  {
+   "block_number": 523360721,
+   "input": "0x0005f703ba03035e0cb059535386c3040f48480000000000000001a1cbfe652100",
+   "timestamp_ms": 1794423809313,
+   "feeds": [
+    {
+     "price": "100074426",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207861499904",
+     "bid_spread_ppm": 218,
+     "ask_spread_ppm": 218
+    },
+    {
+     "price": "7434656481280",
+     "bid_spread_ppm": 163,
+     "ask_spread_ppm": 163
+    }
+   ]
+  },
+  {
+   "block_number": 523360722,
+   "input": "0x0005f703c203035e0c8e03505086c3040f48480000000000000001a1cbfe66a800",
+   "timestamp_ms": 1794423809704,
+   "feeds": [
+    {
+     "price": "100074434",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207843497984",
+     "bid_spread_ppm": 203,
+     "ask_spread_ppm": 203
+    },
+    {
+     "price": "7434656481280",
+     "bid_spread_ppm": 163,
+     "ask_spread_ppm": 163
+    }
+   ]
+  },
+  {
+   "block_number": 523360729,
+   "input": "0x0005f703be03035e0cae70515186c3040f41410000000000000001a1cbfe6cf400",
+   "timestamp_ms": 1794423811316,
+   "feeds": [
+    {
+     "price": "100074430",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207860498432",
+     "bid_spread_ppm": 208,
+     "ask_spread_ppm": 208
+    },
+    {
+     "price": "7434656481280",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360743,
+   "input": "0x0005f7030d03035e0c3bff545486c2d4134d4d0000000000000001a1cbfe809300",
+   "timestamp_ms": 1794423816339,
+   "feeds": [
+    {
+     "price": "100074253",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207800498176",
+     "bid_spread_ppm": 223,
+     "ask_spread_ppm": 223
+    },
+    {
+     "price": "7433851437056",
+     "bid_spread_ppm": 188,
+     "ask_spread_ppm": 188
+    }
+   ]
+  },
+  {
+   "block_number": 523360754,
+   "input": "0x0005f702b003035e0c6d97545486c2e4784b4b0000000000000001a1cbfe8c3000",
+   "timestamp_ms": 1794423819312,
+   "feeds": [
+    {
+     "price": "100074160",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207826499584",
+     "bid_spread_ppm": 223,
+     "ask_spread_ppm": 223
+    },
+    {
+     "price": "7434126491648",
+     "bid_spread_ppm": 178,
+     "ask_spread_ppm": 178
+    }
+   ]
+  },
+  {
+   "block_number": 523360763,
+   "input": "0x0005f7031103035e0c80aa535386c2e47847470000000000000001a1cbfe9a9700",
+   "timestamp_ms": 1794423822999,
+   "feeds": [
+    {
+     "price": "100074257",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207836499968",
+     "bid_spread_ppm": 218,
+     "ask_spread_ppm": 218
+    },
+    {
+     "price": "7434126491648",
+     "bid_spread_ppm": 158,
+     "ask_spread_ppm": 158
+    }
+   ]
+  },
+  {
+   "block_number": 523360772,
+   "input": "0x0005f7026403035e0c80aa4e4e86c2e47841410000000000000001a1cbfea48300",
+   "timestamp_ms": 1794423825539,
+   "feeds": [
+    {
+     "price": "100074084",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207836499968",
+     "bid_spread_ppm": 193,
+     "ask_spread_ppm": 193
+    },
+    {
+     "price": "7434126491648",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360775,
+   "input": "0x0005f7021403035e0c5a84535386c2e47841410000000000000001a1cbfea78800",
+   "timestamp_ms": 1794423826312,
+   "feeds": [
+    {
+     "price": "100074004",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207816499200",
+     "bid_spread_ppm": 218,
+     "ask_spread_ppm": 218
+    },
+    {
+     "price": "7434126491648",
+     "bid_spread_ppm": 128,
+     "ask_spread_ppm": 128
+    }
+   ]
+  },
+  {
+   "block_number": 523360788,
+   "input": "0x0005f701e103035e0c50fa525286c2e48743430000000000000001a1cbfeb5ef00",
+   "timestamp_ms": 1794423829999,
+   "feeds": [
+    {
+     "price": "100073953",
+     "bid_spread_ppm": 3,
+     "ask_spread_ppm": 3
+    },
+    {
+     "price": "207811497984",
+     "bid_spread_ppm": 213,
+     "ask_spread_ppm": 213
+    },
+    {
+     "price": "7434127474688",
+     "bid_spread_ppm": 138,
+     "ask_spread_ppm": 138
+    }
+   ]
+  }
+ ]
+}

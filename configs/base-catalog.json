@@ -1,0 +1,62 @@
+{
+  "chain_id": 8453,
+  "tokens": [
+    "0x4200000000000000000000000000000000000006",
+    "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "0x0000000000000000000000000000000000000000"
+  ],
+  "factories": [
+    {
+      "address": "0x33128a8fC17869897dcE68Ed026d694621f6FDfD",
+      "kind": "v3",
+      "fees": [
+        100,
+        500,
+        3000,
+        10000
+      ]
+    },
+    {
+      "address": "0x5e7BB104d84c7CB9B682AaC2F3d509f5F406809A",
+      "kind": "slipstream"
+    },
+    {
+      "address": "0xaDe65c38CD4849aDBA595a4323a8C7DdfE89716a",
+      "kind": "slipstream"
+    },
+    {
+      "address": "0xf8f2eB4940CFE7d13603DDDD87f123820Fc061Ef",
+      "kind": "slipstream"
+    },
+    {
+      "address": "0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6",
+      "kind": "v2",
+      "fees": [
+        3000
+      ]
+    }
+  ],
+  "v4": {
+    "pool_manager": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "state_view": "0xa3c0c9b65bad0b08107aa264b0f3db444b867a71",
+    "tiers": [
+      {
+        "fee": 100,
+        "tick_spacing": 1
+      },
+      {
+        "fee": 500,
+        "tick_spacing": 10
+      },
+      {
+        "fee": 3000,
+        "tick_spacing": 60
+      },
+      {
+        "fee": 10000,
+        "tick_spacing": 200
+      }
+    ]
+  }
+}

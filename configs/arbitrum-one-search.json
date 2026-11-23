@@ -1,0 +1,32 @@
+{
+  "k": 32,
+  "max_depth": 4,
+  "max_cycles": 1000000,
+  "fast_coarse_cycles": 512,
+  "fast_lane_hops": 4,
+  "fast_lane_quotes": 8,
+  "word_radius": 1,
+  "funding": [
+    {
+      "token": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "min_input": "1000000000000",
+      "seed_input": "100000000000000000",
+      "max_input": "50000000000000000000",
+      "min_gross": "5000000000000"
+    },
+    {
+      "token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_input": "10000",
+      "seed_input": "200000000",
+      "max_input": "100000000000",
+      "min_gross": "10000"
+    },
+    {
+      "token": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "min_input": "10000",
+      "seed_input": "200000000",
+      "max_input": "100000000000",
+      "min_gross": "10000"
+    }
+  ]
+}
