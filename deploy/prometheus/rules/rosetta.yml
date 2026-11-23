@@ -1,0 +1,151 @@
+groups:
+  - name: rosetta
+    rules:
+      - alert: RosettaDown
+        expr: up{job="rosetta"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} is not answering scrapes"
+
+      - alert: RosettaHeadStale
+        expr: |
+          rosetta_pipeline_state{source="standard",gauge="head_timestamp_seconds"} > 0
+          and time() - rosetta_pipeline_state{source="standard",gauge="head_timestamp_seconds"} > 60
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} canonical head is over 60 s old"
+
+      # An unused feed also reports 0, so require recent traffic on that source.
+      - alert: RosettaFeedDisconnected
+        expr: |
+          rosetta_pipeline_state{gauge="feed_connected"} == 0
+          and ignoring(gauge, event)
+          increase(rosetta_pipeline_events_total{event="messages"}[15m]) > 0
+        for: 30s
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} {{ $labels.source }} feed is disconnected"
+
+      - alert: RosettaStateErrors
+        expr: |
+          sum by (rosetta_instance, event) (increase(rosetta_pipeline_events_total{event=~"block_mismatch|pool_errors|checkpoint_errors|reconcile_errors"}[5m])) > 0
+        labels:
+          severity: critical
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} reported {{ $labels.event }}"
+
+      - alert: RosettaQueueOverflow
+        expr: |
+          sum by (rosetta_instance, source) (increase(rosetta_pipeline_events_total{event="queue_overflow"}[5m])) > 0
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} {{ $labels.source }} queue overflowed"
+
+      - alert: RosettaRPCBudgetLow
+        expr: |
+          rosetta_pipeline_state{source="standard",gauge="rpc_call_budget"} > 0
+          and ignoring(gauge, event)
+          rosetta_pipeline_events_total{source="standard",event="rpc_method_calls"}
+          / ignoring(gauge, event) rosetta_pipeline_state{source="standard",gauge="rpc_call_budget"} > 0.8
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} used over 80% of its RPC call budget"
+
+      - alert: RosettaDeliveryPaused
+        expr: rosetta_pipeline_state{source="standard",gauge="delivery_paused"} == 1
+        for: 1h
+        labels:
+          severity: info
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} has held plan delivery for over an hour"
+
+      - alert: RosettaSyncLagging
+        expr: rosetta_pipeline_state{source="standard",gauge="sync_lag_blocks"} > 20
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} is over 20 blocks behind"
+
+      - alert: RosettaRPCThrottled
+        expr: |
+          sum by (rosetta_instance) (increase(rosetta_pipeline_events_total{event="rpc_throttled"}[5m])) > 5
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} is being rate limited by its RPC provider"
+
+      - alert: RosettaFeedFlapping
+        expr: |
+          sum by (rosetta_instance, source) (increase(rosetta_pipeline_events_total{event="feed_disconnects"}[10m])) > 3
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} {{ $labels.source }} feed keeps reconnecting"
+
+      - alert: RosettaDiscoveryFailing
+        expr: |
+          sum by (rosetta_instance) (increase(rosetta_pipeline_events_total{event="discovery_errors"}[30m])) > 3
+        labels:
+          severity: warning
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} pool discovery keeps failing"
+
+      - alert: RosettaGraphTruncated
+        expr: rosetta_pipeline_state{source="standard",gauge="graph_truncated"} == 1
+        for: 5m
+        labels:
+          severity: info
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} search graph hit its cycle limit"
+
+      - alert: RosettaDiskLow
+        expr: |
+          rosetta_pipeline_state{source="standard",gauge="disk_free_bytes"} > 0
+          and rosetta_pipeline_state{source="standard",gauge="disk_free_bytes"} < 50e9
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} has under 50 GB of disk left"
+
+      # A halt blocks every reactive send until an operator reconciles the nonce.
+      - alert: RosettaDispatchHalted
+        expr: rosetta_pipeline_state{source="standard",gauge="dispatch_halted"} == 1
+        labels:
+          severity: critical
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} dispatcher is halted and sends nothing"
+
+      - alert: RosettaDispatchStopped
+        expr: rosetta_pipeline_state{source="standard",gauge="dispatch_stopped"} == 1
+        for: 1h
+        labels:
+          severity: info
+        annotations:
+          summary: "{{ $labels.rosetta_instance }} has had its reactive stop file in place for over an hour"
+
+  - name: rosetta-console
+    rules:
+      - alert: RosettaConsoleInstanceOffline
+        expr: rosetta_console_instance_online == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "console cannot reach {{ $labels.rosetta_instance }}"
+
+      - alert: RosettaConsoleTailStuck
+        expr: rosetta_console_tail_lag_bytes > 50e6
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "console is behind importing {{ $labels.rosetta_instance }} output"

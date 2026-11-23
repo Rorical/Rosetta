@@ -1,0 +1,9 @@
+[package]
+name = "rosetta-op-test-engine"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+op-revm = { version = "=20.0.0", default-features = false, features = ["std", "secp256k1", "portable", "optional_fee_charge"] }
+serde_json = "1"

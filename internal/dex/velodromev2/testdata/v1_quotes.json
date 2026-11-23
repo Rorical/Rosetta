@@ -1,0 +1,426 @@
+{
+ "block": 159022333,
+ "factory": "0x25cbddb98b35ab1ff77413456b31ec81a6b6b746",
+ "fee_bps": {
+  "stable": 5,
+  "volatile": 5
+ },
+ "pools": [
+  {
+   "address": "0x59bb4354c226e5e6c233800f60c61beafb3c5f15",
+   "stable": false,
+   "scale0": "1000000",
+   "scale1": "1000000000000000000",
+   "reserve0": "3040585",
+   "reserve1": "115697191734188403313351",
+   "token0": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+   "token1": "0xb532178708814f0c174b29b991d2b355106afbc3",
+   "quotes": [
+    {
+     "token_in": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+     "amount_in": "304",
+     "amount_out": "11566336780853649905"
+    },
+    {
+     "token_in": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+     "amount_in": "3040",
+     "amount_out": "115521419754936403993"
+    },
+    {
+     "token_in": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+     "amount_in": "30405",
+     "amount_out": "1144925522611543752942"
+    },
+    {
+     "token_in": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+     "amount_in": "304058",
+     "amount_out": "10513130623215987394598"
+    },
+    {
+     "token_in": "0xb532178708814f0c174b29b991d2b355106afbc3",
+     "amount_in": "11569719173418840331",
+     "amount_out": "303"
+    },
+    {
+     "token_in": "0xb532178708814f0c174b29b991d2b355106afbc3",
+     "amount_in": "115697191734188403313",
+     "amount_out": "3036"
+    },
+    {
+     "token_in": "0xb532178708814f0c174b29b991d2b355106afbc3",
+     "amount_in": "1156971917341884033133",
+     "amount_out": "30089"
+    },
+    {
+     "token_in": "0xb532178708814f0c174b29b991d2b355106afbc3",
+     "amount_in": "11569719173418840331335",
+     "amount_out": "276291"
+    }
+   ]
+  },
+  {
+   "address": "0x38a3341627d1230ee95364d214202387e4bceb86",
+   "stable": false,
+   "scale0": "1000000000000000000",
+   "scale1": "1000000000000000000",
+   "reserve0": "5747365717999131791",
+   "reserve1": "8872576385736639556",
+   "token0": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+   "token1": "0xfd389dc9533717239856190f42475d3f263a270d",
+   "quotes": [
+    {
+     "token_in": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+     "amount_in": "574736571799913",
+     "amount_out": "886725381552492"
+    },
+    {
+     "token_in": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+     "amount_in": "5747365717999131",
+     "amount_out": "8859285241944447"
+    },
+    {
+     "token_in": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+     "amount_in": "57473657179991317",
+     "amount_out": "87803801974700579"
+    },
+    {
+     "token_in": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+     "amount_in": "574736571799913179",
+     "amount_out": "806231201194942610"
+    },
+    {
+     "token_in": "0xfd389dc9533717239856190f42475d3f263a270d",
+     "amount_in": "887257638573663",
+     "amount_out": "574391793054297"
+    },
+    {
+     "token_in": "0xfd389dc9533717239856190f42475d3f263a270d",
+     "amount_in": "8872576385736639",
+     "amount_out": "5738756148369836"
+    },
+    {
+     "token_in": "0xfd389dc9533717239856190f42475d3f263a270d",
+     "amount_in": "88725763857366395",
+     "amount_out": "56876440330299973"
+    },
+    {
+     "token_in": "0xfd389dc9533717239856190f42475d3f263a270d",
+     "amount_in": "887257638573663955",
+     "amount_out": "522250287298525590"
+    }
+   ]
+  },
+  {
+   "address": "0x9251514625f4fd4aec6c0bce89c95ec247e9e6f0",
+   "stable": false,
+   "scale0": "1000000",
+   "scale1": "1000000000",
+   "reserve0": "941066689",
+   "reserve1": "354291886382693",
+   "token0": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+   "token1": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+   "quotes": [
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "94106",
+     "amount_out": "35407703319"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "941066",
+     "amount_out": "353761097679"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "9410666",
+     "amount_out": "3506103690550"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "94106668",
+     "amount_out": "32193712305450"
+    },
+    {
+     "token_in": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+     "amount_in": "35429188638",
+     "amount_out": "94050"
+    },
+    {
+     "token_in": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+     "amount_in": "354291886382",
+     "amount_out": "939656"
+    },
+    {
+     "token_in": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+     "amount_in": "3542918863826",
+     "amount_out": "9312879"
+    },
+    {
+     "token_in": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+     "amount_in": "35429188638269",
+     "amount_out": "85512628"
+    }
+   ]
+  },
+  {
+   "address": "0x662f16652a242aad3c938c80864688e4d9b26a5e",
+   "stable": false,
+   "scale0": "1000000",
+   "scale1": "1000000000000000000",
+   "reserve0": "3702181",
+   "reserve1": "48192037330391037252680",
+   "token0": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+   "token1": "0xa50b23cdfb2ec7c590e84f403256f67ce6dffb84",
+   "quotes": [
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "370",
+     "amount_out": "4815883376689391660"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "3702",
+     "amount_out": "48128550817262187212"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "37021",
+     "amount_out": "476908854267791997254"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "370218",
+     "amount_out": "4379102903107888408546"
+    },
+    {
+     "token_in": "0xa50b23cdfb2ec7c590e84f403256f67ce6dffb84",
+     "amount_in": "4819203733039103725",
+     "amount_out": "369"
+    },
+    {
+     "token_in": "0xa50b23cdfb2ec7c590e84f403256f67ce6dffb84",
+     "amount_in": "48192037330391037252",
+     "amount_out": "3696"
+    },
+    {
+     "token_in": "0xa50b23cdfb2ec7c590e84f403256f67ce6dffb84",
+     "amount_in": "481920373303910372526",
+     "amount_out": "36637"
+    },
+    {
+     "token_in": "0xa50b23cdfb2ec7c590e84f403256f67ce6dffb84",
+     "amount_in": "4819203733039103725268",
+     "amount_out": "336408"
+    }
+   ]
+  },
+  {
+   "address": "0x566c8fe71d5549e36db29c60a27325db12a32d0a",
+   "stable": true,
+   "scale0": "1000000000000000000",
+   "scale1": "1000000000000000000",
+   "reserve0": "10000000000000000000000",
+   "reserve1": "10000000000000000000000",
+   "token0": "0x2e0a7064a5ba7b9b7499997d91885badd5fc45f6",
+   "token1": "0xb859f08434e6055c33f204d766d6a95898d37abc",
+   "quotes": [
+    {
+     "token_in": "0x2e0a7064a5ba7b9b7499997d91885badd5fc45f6",
+     "amount_in": "1000000000000000000",
+     "amount_out": "999499999999500999"
+    },
+    {
+     "token_in": "0x2e0a7064a5ba7b9b7499997d91885badd5fc45f6",
+     "amount_in": "10000000000000000000",
+     "amount_out": "9994999995009992507"
+    },
+    {
+     "token_in": "0x2e0a7064a5ba7b9b7499997d91885badd5fc45f6",
+     "amount_in": "100000000000000000000",
+     "amount_out": "99949950099975036941"
+    },
+    {
+     "token_in": "0x2e0a7064a5ba7b9b7499997d91885badd5fc45f6",
+     "amount_in": "1000000000000000000000",
+     "amount_out": "999001515438134966558"
+    },
+    {
+     "token_in": "0xb859f08434e6055c33f204d766d6a95898d37abc",
+     "amount_in": "1000000000000000000",
+     "amount_out": "999499999999500999"
+    },
+    {
+     "token_in": "0xb859f08434e6055c33f204d766d6a95898d37abc",
+     "amount_in": "10000000000000000000",
+     "amount_out": "9994999995009992507"
+    },
+    {
+     "token_in": "0xb859f08434e6055c33f204d766d6a95898d37abc",
+     "amount_in": "100000000000000000000",
+     "amount_out": "99949950099975036941"
+    },
+    {
+     "token_in": "0xb859f08434e6055c33f204d766d6a95898d37abc",
+     "amount_in": "1000000000000000000000",
+     "amount_out": "999001515438134966558"
+    }
+   ]
+  },
+  {
+   "address": "0xa7e9cb5f33f6934d1359fd64c54cc748ec25f136",
+   "stable": true,
+   "scale0": "1000000000000000000",
+   "scale1": "1000000000000000000",
+   "reserve0": "692091582280069295772",
+   "reserve1": "45997323044785339347",
+   "token0": "0x09448876068907827ec15f49a8f1a58c70b04d45",
+   "token1": "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05",
+   "quotes": [
+    {
+     "token_in": "0x09448876068907827ec15f49a8f1a58c70b04d45",
+     "amount_in": "69209158228006929",
+     "amount_out": "13629324971231444"
+    },
+    {
+     "token_in": "0x09448876068907827ec15f49a8f1a58c70b04d45",
+     "amount_in": "692091582280069295",
+     "amount_out": "136056180836547362"
+    },
+    {
+     "token_in": "0x09448876068907827ec15f49a8f1a58c70b04d45",
+     "amount_in": "6920915822800692957",
+     "amount_out": "1337211720479894144"
+    },
+    {
+     "token_in": "0x09448876068907827ec15f49a8f1a58c70b04d45",
+     "amount_in": "69209158228006929577",
+     "amount_out": "11353220044844737943"
+    },
+    {
+     "token_in": "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05",
+     "amount_in": "4599732304478533",
+     "amount_out": "23327863756457256"
+    },
+    {
+     "token_in": "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05",
+     "amount_in": "45997323044785339",
+     "amount_out": "233141695911658625"
+    },
+    {
+     "token_in": "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05",
+     "amount_in": "459973230447853393",
+     "amount_out": "2317828551925213204"
+    },
+    {
+     "token_in": "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05",
+     "amount_in": "4599732304478533934",
+     "amount_out": "21917115365696802562"
+    }
+   ]
+  },
+  {
+   "address": "0xb3134105db6d3a243436df7fb5f3aea7609f0dc5",
+   "stable": true,
+   "scale0": "1000000",
+   "scale1": "1000000000",
+   "reserve0": "4435554",
+   "reserve1": "5095354383772",
+   "token0": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+   "token1": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+   "quotes": [
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "443",
+     "amount_out": "169621522"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "4435",
+     "amount_out": "1696346802"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "44355",
+     "amount_out": "16863675155"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "443555",
+     "amount_out": "159260964539"
+    },
+    {
+     "token_in": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+     "amount_in": "509535438",
+     "amount_out": "1329"
+    },
+    {
+     "token_in": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+     "amount_in": "5095354383",
+     "amount_out": "13273"
+    },
+    {
+     "token_in": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+     "amount_in": "50953543837",
+     "amount_out": "130384"
+    },
+    {
+     "token_in": "0xb25ea095997f5bbaa6cea962c4fbf3bfc3c09776",
+     "amount_in": "509535438377",
+     "amount_out": "1102600"
+    }
+   ]
+  },
+  {
+   "address": "0x55624dc97289a19045b4739627beaeb1e70ab64c",
+   "stable": true,
+   "scale0": "1000000",
+   "scale1": "1000000000000000000",
+   "reserve0": "186290895",
+   "reserve1": "207416295341185779057",
+   "token0": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+   "token1": "0xc5b001dc33727f8f26880b184090d3e252470d45",
+   "quotes": [
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "18629",
+     "amount_out": "18625738821226414"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "186290",
+     "amount_out": "186253035227902542"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "1862908",
+     "amount_out": "1862417313129280905"
+    },
+    {
+     "token_in": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+     "amount_in": "18629089",
+     "amount_out": "18620314652968040728"
+    },
+    {
+     "token_in": "0xc5b001dc33727f8f26880b184090d3e252470d45",
+     "amount_in": "20741629534118577",
+     "amount_out": "20724"
+    },
+    {
+     "token_in": "0xc5b001dc33727f8f26880b184090d3e252470d45",
+     "amount_in": "207416295341185779",
+     "amount_out": "207246"
+    },
+    {
+     "token_in": "0xc5b001dc33727f8f26880b184090d3e252470d45",
+     "amount_in": "2074162953411857790",
+     "amount_out": "2072271"
+    },
+    {
+     "token_in": "0xc5b001dc33727f8f26880b184090d3e252470d45",
+     "amount_in": "20741629534118577905",
+     "amount_out": "20669475"
+    }
+   ]
+  }
+ ]
+}

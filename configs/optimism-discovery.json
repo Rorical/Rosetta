@@ -1,0 +1,120 @@
+{
+  "inventory_path": "state/optimism-pool-index.json",
+  "lookback_blocks": 100000,
+  "refresh_blocks": 120,
+  "scan_chunk_blocks": 5000,
+  "max_pools": 512,
+  "max_fee": 10000,
+  "sources": [
+    "uniswap_v2",
+    "uniswap_v3",
+    "uniswap_v4",
+    "slipstream",
+    "velodrome_v2",
+    "solidly_v3",
+    "velodrome_v1"
+  ],
+  "emitters": [
+    {
+      "source": "slipstream",
+      "address": "0xCc0bDDB707055e04e497aB22a59c2aF4391cd12F"
+    },
+    {
+      "source": "slipstream",
+      "address": "0xe13Dd1fbA721Aa81a1826D9523AC9BC7d260c879"
+    },
+    {
+      "source": "uniswap_v3",
+      "address": "0x9c6522117e2ed1fE5bdb72bb0eD5E3f2bdE7DBe0"
+    }
+  ],
+  "selection": {
+    "targets": [
+      {
+        "token": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+        "amount": "1000000"
+      },
+      {
+        "token": "0x4200000000000000000000000000000000000006",
+        "amount": "1000000000000000"
+      }
+    ],
+    "max_tokens": 128,
+    "max_slippage_bps": 200,
+    "min_swaps": 1,
+    "activity_window": 7200,
+    "probe_limit": 128
+  },
+  "seed_pools": [
+    {
+      "address": "0x056b153132f105356d95ccf34a0065a28617dac4",
+      "token0": "0x10398abc267496e49106b07dd6be13364d10dc71",
+      "token1": "0x3e29d3a9316dab217754d13b28646b76607c5f04",
+      "fee": 3000,
+      "tick_spacing": 0,
+      "kind": "velodrome_v2"
+    },
+    {
+      "address": "0x4f3da11c5cadf644ae023dbad01008a934c993e2",
+      "token0": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "token1": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819",
+      "fee": 500,
+      "tick_spacing": 0,
+      "kind": "velodrome_v2"
+    },
+    {
+      "address": "0x588f26d5befe74dc61694a7b36227c0e0c52c0f9",
+      "token0": "0x10398abc267496e49106b07dd6be13364d10dc71",
+      "token1": "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819",
+      "fee": 500,
+      "tick_spacing": 0,
+      "kind": "velodrome_v2"
+    },
+    {
+      "address": "0xa1055762336f92b4b8d2edc032a0ce45ead6280a",
+      "token0": "0x3e29d3a9316dab217754d13b28646b76607c5f04",
+      "token1": "0x4200000000000000000000000000000000000006",
+      "fee": 500,
+      "tick_spacing": 0,
+      "kind": "velodrome_v2"
+    },
+    {
+      "address": "0xca231d91ec00385a54e541f504617d2197f9b7c3",
+      "token0": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "token1": "0x4200000000000000000000000000000000000006",
+      "fee": 440,
+      "tick_spacing": 100,
+      "kind": "slipstream"
+    },
+    {
+      "address": "0x36b34113cd2daef6782558ac1647b70407afaeb3",
+      "token0": "0x4200000000000000000000000000000000000006",
+      "token1": "0x4200000000000000000000000000000000000042",
+      "fee": 467,
+      "tick_spacing": 100,
+      "kind": "slipstream"
+    },
+    {
+      "address": "0xb2ac2e5a3684411254d58b1c5a542212b782114d",
+      "token0": "0x4200000000000000000000000000000000000042",
+      "token1": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "fee": 3000,
+      "tick_spacing": 60,
+      "kind": "v3"
+    },
+    {
+      "address": "0xd64f599413a04a11d9691dd97e04b54955bbbb76",
+      "token0": "0x4200000000000000000000000000000000000006",
+      "token1": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "fee": 280,
+      "tick_spacing": 100,
+      "kind": "slipstream"
+    },
+    {
+      "address": "0x8828b7792499a7d86e931df56e3d37c428d12d2b",
+      "token0": "0x03569cc076654f82679c4ba2124d64774781b01d",
+      "token1": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "kind": "velodrome_v2"
+    }
+  ]
+}

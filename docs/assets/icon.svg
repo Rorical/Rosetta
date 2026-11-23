@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Rosetta">
+  <defs>
+    <linearGradient id="glyph" gradientUnits="userSpaceOnUse" x1="96" y1="96" x2="416" y2="416">
+      <stop offset="0" stop-color="#5FE3FF"/>
+      <stop offset="0.5" stop-color="#E9F8FF"/>
+      <stop offset="1" stop-color="#9B7BFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#000"/>
+  <g fill="url(#glyph)">
+    <path d="M275.9 89.2 A168 168 0 0 0 123.6 359.4 Q147.5 390.0 177.1 433.2 Q162.6 334.4 148.4 299.5 A116 116 0 0 1 262.2 140.2Z"/>
+    <path d="M296.2 55.6 C371.1 104.6 349.8 161.0 301.9 208.3 Q324.4 170.8 304.3 121.9 L274.1 370.6 A116 116 0 0 0 371.9 260.0 C373.1 226.8 395.5 181.8 384.7 148.0 A168 168 0 0 1 290.9 420.3 Q243.8 430.3 205.0 461.8Z"/>
+  </g>
+</svg>

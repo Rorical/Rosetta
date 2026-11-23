@@ -1,0 +1,345 @@
+{
+ "source": "OP Mainnet public RPC eth_call at a pinned block; quoteSwap is the pool's own view quote",
+ "pool": "0x2b6b093a6c2aba51e078540ad89ed76a0c6716fa",
+ "block": 159011751,
+ "token0": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+ "token1": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+ "tick_spacing": 1,
+ "fee": 10,
+ "tick": 0,
+ "liquidity": "161292181340382",
+ "word_radius": 2,
+ "calls": {
+  "0x0dfe1681": "0x0000000000000000000000000b2c639c533813f4aa9d7837caf62653d097ff85",
+  "0xd21220a7": "0x0000000000000000000000007f5c764cbc14f9669b88837ca1490cca17c31607",
+  "0xd0c93a7c": "0x0000000000000000000000000000000000000000000000000000000000000001",
+  "0x3850c7bd": "0x0000000000000000000000000000000000000001000284d44f1eaef3c17fdbc20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000001",
+  "0x1a686502": "0x000000000000000000000000000000000000000000000000000092b1c32c80de",
+  "0x5339c296fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "0x5339c296ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff": "0x20c0000000000000000000000000000000000000000000000000000000000000",
+  "0xf30dba93fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6": "0x0000000000000000000000000000000000000000000000000000000000086b7b0000000000000000000000000000000000000000000000000000000000086b7b0000000000000000000000000000000000000000000000000000000000000001",
+  "0xf30dba93fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7": "0x000000000000000000000000000000000000000000000000000000008b6f353f000000000000000000000000000000000000000000000000000000008b6f353f0000000000000000000000000000000000000000000000000000000000000001",
+  "0xf30dba93fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd": "0x00000000000000000000000000000000000000000000000000000008451c516300000000000000000000000000000000000000000000000000000008451c51630000000000000000000000000000000000000000000000000000000000000001",
+  "0x5339c2960000000000000000000000000000000000000000000000000000000000000000": "0x0000000000000000000000000000000000000000000000000000000000000283",
+  "0xf30dba930000000000000000000000000000000000000000000000000000000000000000": "0x000000000000000000000000000000000000000000000000000092b97c331ec5000000000000000000000000000000000000000000000000000092a8f1fa7bff0000000000000000000000000000000000000000000000000000000000000001",
+  "0xf30dba930000000000000000000000000000000000000000000000000000000000000001": "0x000000000000000000000000000000000000000000000000000092b13716cd62ffffffffffffffffffffffffffffffffffffffffffffffffffff6d4ec8e9329e0000000000000000000000000000000000000000000000000000000000000001",
+  "0xf30dba930000000000000000000000000000000000000000000000000000000000000007": "0x000000000000000000000000000000000000000000000000000000008b6f353fffffffffffffffffffffffffffffffffffffffffffffffffffffffff7490cac10000000000000000000000000000000000000000000000000000000000000001",
+  "0xf30dba930000000000000000000000000000000000000000000000000000000000000009": "0x0000000000000000000000000000000000000000000000000000000000086b7bfffffffffffffffffffffffffffffffffffffffffffffffffffffffffff794850000000000000000000000000000000000000000000000000000000000000001",
+  "0x5339c2960000000000000000000000000000000000000000000000000000000000000001": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "0x5339c2960000000000000000000000000000000000000000000000000000000000000002": "0x0000000000000000000000000000000000000000000000000000000000000000"
+ },
+ "quotes": [
+  {
+   "zero_for_one": true,
+   "amount_in": "1000",
+   "amount_out": "999",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "4000",
+   "amount_out": "3999",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "16000",
+   "amount_out": "16000",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "64000",
+   "amount_out": "64003",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "256000",
+   "amount_out": "256016",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "1024000",
+   "amount_out": "1024067",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "4096000",
+   "amount_out": "4096273",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "16384000",
+   "amount_out": "16385093",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "65536000",
+   "amount_out": "65540355",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "262144000",
+   "amount_out": "262161103",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "1048576000",
+   "amount_out": "1048639300",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "4194304000",
+   "amount_out": "4194475395",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "16777216000",
+   "amount_out": "6215965462",
+   "tick_after": -138588
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "67108864000",
+   "amount_out": "6215973768",
+   "tick_after": -173595
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "268435456000",
+   "amount_out": "6215975063",
+   "tick_after": -202793
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "1073741824000",
+   "amount_out": "6215975317",
+   "tick_after": -230871
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "4294967296000",
+   "amount_out": "6215975337",
+   "tick_after": -258685
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "17179869184000",
+   "amount_out": "6215975337",
+   "tick_after": -286434
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "68719476736000",
+   "amount_out": "6215975337",
+   "tick_after": -314167
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "274877906944000",
+   "amount_out": "6215975337",
+   "tick_after": -341896
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "1099511627776000",
+   "amount_out": "6215975337",
+   "tick_after": -369623
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "4398046511104000",
+   "amount_out": "6215975337",
+   "tick_after": -397351
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "17592186044416000",
+   "amount_out": "6215975337",
+   "tick_after": -425078
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "70368744177664000",
+   "amount_out": "6215975337",
+   "tick_after": -452805
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "281474976710656000",
+   "amount_out": "6215975337",
+   "tick_after": -480532
+  },
+  {
+   "zero_for_one": true,
+   "amount_in": "1125899906842624000",
+   "amount_out": "6215975337",
+   "tick_after": -508260
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "1000",
+   "amount_out": "998",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "4000",
+   "amount_out": "3998",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "16000",
+   "amount_out": "15997",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "64000",
+   "amount_out": "63994",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "256000",
+   "amount_out": "255977",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "1024000",
+   "amount_out": "1023910",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "4096000",
+   "amount_out": "4095644",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "16384000",
+   "amount_out": "16382574",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "65536000",
+   "amount_out": "65530279",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "262144000",
+   "amount_out": "262120802",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "1048576000",
+   "amount_out": "1048478099",
+   "tick_after": 0
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "4194304000",
+   "amount_out": "1876020754",
+   "tick_after": 108394
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "16777216000",
+   "amount_out": "1876059381",
+   "tick_after": 145460
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "67108864000",
+   "amount_out": "1876064867",
+   "tick_after": 174971
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "268435456000",
+   "amount_out": "1876066054",
+   "tick_after": 203120
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "1073741824000",
+   "amount_out": "1876066301",
+   "tick_after": 230951
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "4294967296000",
+   "amount_out": "1876066321",
+   "tick_after": 258705
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "17179869184000",
+   "amount_out": "1876066321",
+   "tick_after": 286438
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "68719476736000",
+   "amount_out": "1876066321",
+   "tick_after": 314167
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "274877906944000",
+   "amount_out": "1876066321",
+   "tick_after": 341895
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "1099511627776000",
+   "amount_out": "1876066321",
+   "tick_after": 369622
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "4398046511104000",
+   "amount_out": "1876066321",
+   "tick_after": 397350
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "17592186044416000",
+   "amount_out": "1876066321",
+   "tick_after": 425077
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "70368744177664000",
+   "amount_out": "1876066321",
+   "tick_after": 452804
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "281474976710656000",
+   "amount_out": "1876066321",
+   "tick_after": 480531
+  },
+  {
+   "zero_for_one": false,
+   "amount_in": "1125899906842624000",
+   "amount_out": "1876066321",
+   "tick_after": 508259
+  }
+ ]
+}

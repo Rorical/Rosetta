@@ -1,0 +1,22 @@
+{
+  "max_tracked": 128,
+  "max_age_ms": 10000,
+  "evaluation_ms": 20,
+  "swap_audit": {
+    "max_swaps": 16,
+    "evaluation_ms": 50,
+    "every_blocks": 1
+  },
+  "costs": [],
+  "paper": {
+    "sample_path": "state/paper-calibration.json",
+    "quote_history_blocks": 4096,
+    "wrapped_native": "0x4200000000000000000000000000000000000006",
+    "history_blocks": 128,
+    "min_samples": 3,
+    "funding_basis": "own_capital_scenario",
+    "loan_fee_pips": 0,
+    "loan_fixed": "0",
+    "min_net_profit": "1"
+  }
+}

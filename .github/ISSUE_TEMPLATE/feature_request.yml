@@ -1,0 +1,16 @@
+name: Feature request
+description: A protocol, chain, or capability Rosetta does not support yet.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What you are trying to do and what blocks you today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: For a new DEX or chain, link the contracts, events, and math you would rely on.

@@ -1,0 +1,43 @@
+name: Bug report
+description: Something behaves differently from the code or docs.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Include the command, relevant flags, and log lines. Redact keys and keyed endpoint URLs.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      placeholder: output of `git rev-parse --short HEAD`
+    validations:
+      required: true
+  - type: dropdown
+    id: chain
+    attributes:
+      label: Chain
+      options:
+        - Arbitrum One
+        - Robinhood
+        - OP Mainnet
+        - Base
+        - Unichain
+        - Ink
+        - Not chain-specific
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: A failing test, a fixture, or the smallest set of steps.

@@ -1,0 +1,36 @@
+{
+  "max_tracked": 1024,
+  "max_age_ms": 10000,
+  "evaluation_ms": 250,
+  "swap_audit": {
+    "max_swaps": 16,
+    "evaluation_ms": 50,
+    "every_blocks": 1
+  },
+  "costs": [
+    {
+      "token": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+      "network_fee_in_token": "15000000000000",
+      "loan_fee_pips": 0,
+      "loan_fixed": "0",
+      "safety_bps": 1,
+      "min_net_profit": "1"
+    },
+    {
+      "token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "network_fee_in_token": "32000",
+      "loan_fee_pips": 0,
+      "loan_fixed": "0",
+      "safety_bps": 1,
+      "min_net_profit": "1"
+    },
+    {
+      "token": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "network_fee_in_token": "32000",
+      "loan_fee_pips": 0,
+      "loan_fixed": "0",
+      "safety_bps": 1,
+      "min_net_profit": "1"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "mode": "shadow",
+  "bid_tree_mode": "off",
+  "replacement_min_gain_bps": 100,
+  "cancel_gas_limit": 30000,
+  "cancel_failure_gas": 0,
+  "sender": "0x1111111111111111111111111111111111111111",
+  "executor": "0x2222222222222222222222222222222222222222",
+  "code_hash": "0x1111111111111111111111111111111111111111111111111111111111111111",
+  "wrapped_native": "0x4200000000000000000000000000000000000006",
+  "journal": "state/reactive-dispatch.json",
+  "output": "research/reactive.jsonl",
+  "stop_file": "state/STOP_REACTIVE",
+  "gas_limit": 2000000,
+  "route_gas_base": 250000,
+  "route_gas_per_step": 250000,
+  "deadline_seconds": 6,
+  "max_fee_per_gas": "1000000",
+  "max_priority_fee_per_gas": "200000",
+  "target_priority_fee_per_gas": "100000",
+  "max_transaction_fee": "10000000000000",
+  "max_daily_fee": "100000000000000",
+  "bid_share_bps": 2500,
+  "quote_reserve_bps": 1000,
+  "slippage_bps": 50,
+  "lifetime_ms": 300,
+  "context_max_age_ms": 5000,
+  "max_calldata_bytes": 2048,
+  "assets": [
+    {"token": "0x4200000000000000000000000000000000000006", "max_input": "1000000000000000", "minimum_net_profit": "100000000000", "wallet": true},
+    {"token": "0x0b2c639c533813f4aa9d7837caf62653d097ff85", "max_input": "1000000", "minimum_net_profit": "100", "wallet": false}
+  ]
+}

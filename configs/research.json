@@ -1,0 +1,11 @@
+{
+  "max_tracked": 128,
+  "max_age_ms": 10000,
+  "evaluation_ms": 20,
+  "swap_audit": {
+    "max_swaps": 16,
+    "evaluation_ms": 50,
+    "every_blocks": 1
+  },
+  "costs": []
+}

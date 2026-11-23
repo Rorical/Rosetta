@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "chain_id": 10,
+  "start_block": 158954684,
+  "end_block": 158954685,
+  "source": "OP Mainnet canonical receipt capture; independent canonical RPC receipt comparison; isolated historical EVM fork",
+  "captured_at": "2026-11-01T04:42:25.277Z",
+  "verified_at": "2026-11-01",
+  "pools": [
+    "uniswap_v3:0x146b020399769339509c98b7b353d19130c150ec",
+    "uniswap_v3:0x2a087fd694debec1ed61e0740bd0810b804da8f0"
+  ],
+  "snapshot_encoding": "Rosetta pool snapshot JSON",
+  "blocks_encoding": "one canonical receipt block truncated after transaction index 7; not a complete block commit",
+  "checksum": {
+    "snapshot.bin": "sha256:b75a4441763c7270684e568407f317314e1c026c36047b5c9c7a1ab456f4e392",
+    "blocks.jsonl": "sha256:e8164db81d40c0522d95a5712619a42d87f13ca5d8544b09b6d5b031cd9a3969",
+    "expected.json": "sha256:e97eb31152b23a0083f07b9a9f8c58928f89c1b7b1ce672a398e07990e210788"
+  },
+  "verification": {
+    "foundry_version": "1.5.1",
+    "evm_version": "cancun",
+    "solc_version": "0.8.26",
+    "optimizer_runs": 200,
+    "gas_calibration": "isolated replay of the actual arbitrage call matched its 163760 gas receipt",
+    "executor_sources_sha256": {
+      "ArbitrageExecutor.sol": "33a7bac32856fc18738ae60a6b1cde736d885cc6ded382870c7cd8b06cb3f403",
+      "ExecutorAdmin.sol": "a2ead931a89bfecbea7f540e3900a509632583c95250896504264b2667e2b793",
+      "ExecutorTypes.sol": "ba1cb6ea273e84b68630da2eb887f937c3eda4b56b5397ee3fd609997d7f43d7",
+      "SwapExecutor.sol": "1bb6d9b9d92b7499954afd4a13a06136d27b3937bb2cc33a1d15ed79ca063132",
+      "TokenActions.sol": "8dfb206474969524fa0c633605296f0c846cab545d060deda622bd9bfd766d70"
+    }
+  }
+}

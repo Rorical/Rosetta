@@ -1,0 +1,122 @@
+[
+ {
+  "base": 195531235190,
+  "quote": 99974564,
+  "ext_bid": "0x7a2674cd8c06fe718e2",
+  "ext_ask": "0x7a3789130f8c5977d51",
+  "bid": "0x7a2674cd8c06fe718e2",
+  "ask": "0x7a3d1d2028de47e2f4d"
+ },
+ {
+  "base": 195625051075,
+  "quote": 99974612,
+  "ext_bid": "0x7a32de8b7d4325e4515",
+  "ext_ask": "0x7a41eb7d7173f2562bf",
+  "bid": "0x7a32de8b7d4325e4515",
+  "ask": "0x7a4c1cf919c2ebc9479"
+ },
+ {
+  "base": 197000915363,
+  "quote": 99972928,
+  "ext_bid": "0x7b2cc0eb1113d4eb5f6",
+  "ext_ask": "0x7b435661c9c54c8c86c",
+  "bid": "0x7b28862132b7a633b53",
+  "ask": "0x7b435661c9c54c8c86c"
+ },
+ {
+  "base": 197174713082,
+  "quote": 99973769,
+  "ext_bid": "0x7b31de17c0409ebaf99",
+  "ext_ask": "0x7b47418d5b2f192616e",
+  "bid": "0x7b31de17c0409ebaf99",
+  "ask": "0x7b47418d5b2f192616e"
+ },
+ {
+  "base": 197761220866,
+  "quote": 99975926,
+  "ext_bid": "0x7ba3c283577edd8c10b",
+  "ext_ask": "0x7bb4e36567067afb79b",
+  "bid": "0x7ba1418cd1e7f15fe26",
+  "ask": "0x7bb4e36567067afb79b"
+ },
+ {
+  "base": 197989732602,
+  "quote": 99975840,
+  "ext_bid": "0x7bc9ff13e219d2ce669",
+  "ext_ask": "0x7bdc928c81a848b4c50",
+  "bid": "0x7bc5da934a06a2cdd25",
+  "ask": "0x7bdc928c81a848b4c50"
+ },
+ {
+  "base": 198206539983,
+  "quote": 99975911,
+  "ext_bid": "0x7be906d2b3c3613ef7c",
+  "ext_ask": "0x7bfbc790ee13a39bd28",
+  "bid": "0x7be887571cfffa880d8",
+  "ask": "0x7bfbc790ee13a39bd28"
+ },
+ {
+  "base": 198027928509,
+  "quote": 99976836,
+  "ext_bid": "0x7ba2a81ba778f61178f",
+  "ext_ask": "0x7bb6310ed01e2522169",
+  "bid": "0x7ba2a81ba778f61178f",
+  "ask": "0x7bcbf7d626ad1b25898"
+ },
+ {
+  "base": 197449750000,
+  "quote": 99976477,
+  "ext_bid": "0x7b4f232dbe1a0260f45",
+  "ext_ask": "0x7b600fdb2dc7e382aad",
+  "bid": "0x7b4f232dbe1a0260f45",
+  "ask": "0x7b6f8d165b0d74f408a"
+ },
+ {
+  "base": 196408785229,
+  "quote": 99971843,
+  "ext_bid": "0x7ab7f6078708db30c9f",
+  "ext_ask": "0x7ac6eb2a01b0466e6d2",
+  "bid": "0x7ab7f6078708db30c9f",
+  "ask": "0x7aca69eba1c79aeb434"
+ },
+ {
+  "base": 195956969828,
+  "quote": 99974665,
+  "ext_bid": "0x7a6757f9247ea72cb7d",
+  "ext_ask": "0x7a770be558f9adfbc14",
+  "bid": "0x7a6757f9247ea72cb7d",
+  "ask": "0x7a8137a124fc0197d4e"
+ },
+ {
+  "base": 195956969828,
+  "quote": 99974665,
+  "ext_bid": "0x7a6757f9247ea72cb7d",
+  "ext_ask": "0x7a770be558f9adfbc14",
+  "bid": "0x7a6757f9247ea72cb7d",
+  "ask": "0x7a8137a124fc0197d4e"
+ },
+ {
+  "base": 196772665784,
+  "quote": 99975012,
+  "ext_bid": "0x7af8b91f5cd99ac8371",
+  "ext_ask": "0x7b10d88bdb8f7855ee0",
+  "bid": "0x7af8b91f5cd99ac8371",
+  "ask": "0x7b10d88bdb8f7855ee0"
+ },
+ {
+  "base": 196350656893,
+  "quote": 99974508,
+  "ext_bid": "0x7abc0d9f95c10e06b41",
+  "ext_ask": "0x7ad4b9fd32840114e80",
+  "bid": "0x7abc0d9f95c10e06b41",
+  "ask": "0x7ad4b9fd32840114e80"
+ },
+ {
+  "base": 197668973109,
+  "quote": 99972312,
+  "ext_bid": "0x7b9215b871c8ccad080",
+  "ext_ask": "0x7ba4907b4464a31553f",
+  "bid": "0x7b9215b871c8ccad080",
+  "ask": "0x7ba4907b4464a31553f"
+ }
+]

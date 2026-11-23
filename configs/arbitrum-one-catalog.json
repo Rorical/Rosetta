@@ -1,0 +1,86 @@
+{
+  "chain_id": 42161,
+  "tokens": [
+    "0x0000000000000000000000000000000000000000",
+    "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+    "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+    "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+    "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f",
+    "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
+    "0x5979d7b546e38e414f7e9822514be443a4800529",
+    "0x35751007a407ca6feffe80b3cb397736d2cf4dbe",
+    "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+    "0xf97f4df75117a78c1a5a0dbb814af92458539fb4",
+    "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+    "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34",
+    "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40"
+  ],
+  "factories": [
+    {
+      "address": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+      "kind": "v3",
+      "fees": [100, 500, 3000, 10000]
+    },
+    {
+      "address": "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865",
+      "kind": "v3",
+      "fees": [100, 500, 2500, 10000]
+    },
+    {
+      "address": "0x1af415a1eba07a4986a52b6f2e7de7003d82231e",
+      "kind": "v3",
+      "fees": [100, 500, 3000, 10000]
+    },
+    {
+      "address": "0xf1d7cc64fb4452f05c498126312ebe29f30fbcf9",
+      "kind": "v2",
+      "fees": [3000]
+    },
+    {
+      "address": "0xc35dadb65012ec5796536bd9864ed8773abc74c4",
+      "kind": "v2",
+      "fees": [3000]
+    },
+    {
+      "address": "0x88a60ee77392577c355c0acb2a8d476d5a4ec03a",
+      "kind": "slipstream"
+    }
+  ],
+  "v4": {
+    "pool_manager": "0x360e68faccca8ca495c1b759fd9eee466db9fb32",
+    "state_view": "0x76fd297e2d437cd7f76d50f01afe6160f86e9990",
+    "tiers": [
+      {"fee": 100, "tick_spacing": 1},
+      {"fee": 500, "tick_spacing": 10},
+      {"fee": 3000, "tick_spacing": 60},
+      {"fee": 10000, "tick_spacing": 200}
+    ]
+  },
+  "metric_omm": [
+    {
+      "pool": "0x2b4a9de7bdaffea997f5e12d0ebbffddf6aea3d3",
+      "oracle": "0xe844701934d9c6085b292e428f41b911cc0b3872",
+      "oracle_slot": "0x8dfdc825dd0453e7c80b1c1d32ae910e35d6efe9000000000000000000000000",
+      "feed_index": 1,
+      "quote_extension": "0xf1463419c4ac04aa1ac7fcc7b7930e1f61844c16",
+      "quote_extension_slot": "0xd23040c859ccb3f30ff05a5fa4ef2f6317f4a5baf1ef9c66778e0a50a92baada",
+      "reference_oracle": "0x30a88bf894d1b806125a23ebf23d715496fd7102",
+      "reference_base_feed": 2,
+      "reference_quote_feed": 7
+    },
+    {
+      "pool": "0xbe82f57452e8a476cf5c5f289583fbe65396bb90",
+      "oracle": "0xe844701934d9c6085b292e428f41b911cc0b3872",
+      "oracle_slot": "0x8dfdc825dd0453e7c80b1c1d32ae910e35d6efe9000000000000000000000000",
+      "feed_index": 2,
+      "quote_extension": "0xf1463419c4ac04aa1ac7fcc7b7930e1f61844c16",
+      "quote_extension_slot": "0xdbab37eb331771aa3e3bde04b50e806bc30fe18f0e9d6575804a531b6032dc18",
+      "reference_oracle": "0x30a88bf894d1b806125a23ebf23d715496fd7102",
+      "reference_base_feed": 1,
+      "reference_quote_feed": 7
+    }
+  ]
+}
