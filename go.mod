@@ -6,7 +6,7 @@ require (
 	github.com/andybalholm/brotli v1.1.1
 	github.com/aws/aws-sdk-go-v2/config v1.29.14
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.34.10
-	github.com/coder/websocket v1.8.14
+	github.com/coder/websocket v1.8.15
 	github.com/ethereum/go-ethereum v1.16.2
 	github.com/gofrs/flock v0.12.1
 	github.com/holiman/uint256 v1.3.2
